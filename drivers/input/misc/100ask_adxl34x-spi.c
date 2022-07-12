@@ -5,8 +5,9 @@
 #include <linux/uaccess.h>
 #include <linux/gpio.h>
 #include <linux/cdev.h>
-
+	
 #include <linux/delay.h>
+#include <linux/interrupt.h>
 
 #include <linux/spi/spi.h>
 #include <linux/pm.h>
